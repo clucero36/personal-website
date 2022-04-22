@@ -3,19 +3,19 @@ const projects = [
   {
       name: 'Blogger Landing Page',
       description: 'Landing page developed with HTML, CSS, & JavsScript',
-      src: 'desktop-design.jpg',
+      src: 'bloggrNew.png',
       link: 'https://blogrbusiness.netlify.app/'
   },
   {
       name: 'Tic-Tac-Toe',
       description: 'Game developed with JS, React, & Chakra UI component library',
-      src: 'ttt.png',
+      src: 'tttNew.png',
       link: 'https://threeinarow.netlify.app/'
   },
   {
-      name: 'Five Widgets',
+      name: 'Widgets',
       description: 'Widgets application developed with JS, React, & Chakra UI component library',
-      src: 'widgets.png',
+      src: 'widgetsNew.png',
       link: 'https://five-widgets.netlify.app/'
   }
 ]

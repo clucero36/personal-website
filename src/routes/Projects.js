@@ -12,13 +12,13 @@ const Projects = () => {
   const projects = getProjects();
 
   let renderedProjects = projects.map((project) => {
-
     return (
       <ProjectCard 
         name={project.name}
         description={project.description}
         src={project.src}
         link={project.link}
+        key={project.name}
       />
     )
   })
