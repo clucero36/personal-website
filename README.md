@@ -1,9 +1,9 @@
 Personal Website / Portfolio
 
--Displaying my three most recent web development projects & a little bit about myself.
+Displaying my three most recent web development projects & a little bit about myself
 
-Widgets Application
+-Widgets Application
 
-Business Landing Page
+-Business Landing Page
 
-Tic Tac Toe 
+-Tic Tac Toe 
