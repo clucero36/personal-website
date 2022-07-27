@@ -7,6 +7,7 @@ import {
   Heading,
   AspectRatio, 
   Link,
+  HStack,
 } from '@chakra-ui/react'
 
 
@@ -22,9 +23,14 @@ const ProjectCard = (props) => {
         <Heading size='md'>{props.name}</Heading>
         <Text>{props.description}</Text>
       </Box>
-      <Link variant='primary' href={props.link}>
-        <Text>Live</Text>
-      </Link>
+      <HStack spacing={25}>
+        <Link variant='primary' href={props.link}>
+          <Text>Live</Text>
+        </Link>
+        <Link variant='primary' href={props.git}>
+          <Text>Git</Text>
+        </Link>
+      </HStack>
     </Box>
   )
 }

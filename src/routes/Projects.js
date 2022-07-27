@@ -18,6 +18,7 @@ const Projects = () => {
         description={project.description}
         src={project.src}
         link={project.link}
+        git={project.git}
         key={project.name}
       />
     )
