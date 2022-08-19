@@ -6,6 +6,6 @@ Displaying recent web development projects & a little bit about myself
 
 -Widgets Application
 
--Business Landing Page
+-TicTacToe Game
 
 -Spotify Clone
