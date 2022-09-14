@@ -2,7 +2,7 @@
 const projects = [
   {
     name: 'Jet Boat Classifieds',
-    description: 'E-Commerce application developed with react, firebase, & stripe payment processing. Currently developed for mobile viewing.',
+    description: 'E-Commerce application developed with react, firebase, & stripe payment processing.',
     src: 'shopScreen.png',
     link: 'https://jetboats.netlify.app/',
     git: 'https://github.com/clucero36/jetboats.git',
