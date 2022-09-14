@@ -4,8 +4,9 @@ Displaying recent web development projects & a little bit about myself
 
 -E-Commerce Application
 
--Widgets Application
+-Spotify Clone
+
+-Blogr Landing Page
 
 -TicTacToe Game
 
--Spotify Clone
