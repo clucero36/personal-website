@@ -5,7 +5,7 @@ import {
   Text,
   VStack,
   Icon,
-  Link
+  Link,
 } from '@chakra-ui/react';
 import { DiGithubBadge } from "react-icons/di";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
@@ -29,12 +29,12 @@ const Welcome = () => {
             </Text>
           </VStack>
         </Box>
-        <Box>
+        <Box m='0 auto'>
           <Link href='https://github.com/clucero36' variant='primary'>
-            <Icon h={6} w={6} as={DiGithubBadge} />
+            <Icon h={8} w={8} as={DiGithubBadge} />
           </Link>
           <Link href='https://linkedin.com/in/luisclucero' variant='primary'>
-            <Icon h={6} w={6} as={TiSocialLinkedinCircular} />
+            <Icon h={8} w={8} as={TiSocialLinkedinCircular} />
           </Link>
         </Box>
       </VStack>

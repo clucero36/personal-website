@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link as routerLink} from 'react-router-dom';
-
+import { ColorModeSwitcher } from './ColorModeSwitcher';
 import {
     Box,
     Icon,
@@ -23,8 +23,8 @@ const Heading = props => {
                     <Text>llucero</Text>
                 </Link>
                 <Spacer />
-                {/* <Link variant='primary' to='/articles' as={routerLink}>Articles</Link> */}
                 <Link variant='primary' to='/projects' as={routerLink}>Projects</Link>
+                <ColorModeSwitcher ml='2rem'/>
             </HStack>
         </Box>
     )
