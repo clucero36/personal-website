@@ -3,7 +3,7 @@ import { getProjects } from '../data';
 import ProjectCard from '../components/ProjectCard';
 
 import {
-  Box,
+  Grid
 } from '@chakra-ui/react';
 
 
@@ -25,9 +25,14 @@ const Projects = () => {
   })
 
   return (
-    <Box>
+    <Grid 
+      templateColumns={['repeat(5, 1fr)', 'repeat(5, 1fr)', 'repeat(10, 1fr)']}  
+      w={['90%', '90%', '65%', '65%', '65%']} 
+      m='0 auto' 
+      gap={2}
+    >
       {renderedProjects}
-    </Box>
+    </Grid>
   )
 }
 

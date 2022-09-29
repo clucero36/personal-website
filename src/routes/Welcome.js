@@ -16,10 +16,10 @@ const Welcome = () => {
     <Box padding='4rem' >
       <VStack spacing='5rem'>
         <Heading>Hey, I'm Luis</Heading>
-        <Box w='20rem'>
+        <Box w='25rem'>
           <VStack spacing={5}>
             <Text>
-              I am a web developer and I've recently graduated with a Bachelors Degree in Computer Science.
+              I am a freelance web developer and I've recently graduated with a Bachelors Degree in Computer Science.
               Currently, I am working with web technologies like JavaScript, React, & Node. I have built a handful of applications
               to demonstrate my capabilites and I am looking to join a team where I can continue to develop my skills and contribute to 
               larger projects.
