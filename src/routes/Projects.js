@@ -4,7 +4,6 @@ import ProjectCard from '../components/ProjectCard';
 
 import {
   Flex,
-  Grid
 } from '@chakra-ui/react';
 
 
@@ -27,11 +26,11 @@ const Projects = () => {
 
   return (
     <Flex 
+      wrap='wrap'
+      justify='space-around'
       w='50%'
       m='0 auto' 
       gap={5}
-      wrap='wrap'
-      justify='space-around'
     >
       {renderedProjects}
     </Flex>

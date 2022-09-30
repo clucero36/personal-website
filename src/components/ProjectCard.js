@@ -8,7 +8,6 @@ import {
   Link,
   HStack,
   Flex,
-  GridItem,
 } from '@chakra-ui/react'
 
 
@@ -16,10 +15,10 @@ const ProjectCard = (props) => {
 
 
   return (
-    <Box w='sm' h='25rem' boxShadow='2xl' borderRadius='md' minW='350px'>
+    <Box w='sm' h='25rem' minW='350px' boxShadow='2xl' borderRadius='md'>
       <Flex flexDir='column' alignItems='center' gap='.75rem' justifyContent='space-between' h='100%'>
-        <Image src={props.src} pt='1rem' w='22rem' h='15rem'/>
-        <Box w='22rem' borderTop='1px solid' borderColor='purple.800'>
+        <Image src={props.src} w='95%' h='15rem' pt='1rem'/>
+        <Box w='95%' borderTop='1px solid' borderColor='purple.800'>
           <Heading size='md' pb='.5rem'>{props.name}</Heading>
           <Text>{props.description}</Text>
         </Box>
