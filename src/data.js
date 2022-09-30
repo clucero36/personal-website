@@ -9,7 +9,7 @@ const projects = [
   },
   { 
     name: 'Spotify Clone',
-    description: 'Spotify UI made with React JS & Spotify OAuth 2.0. Work in Progress. Email me for live access',
+    description: 'Spotify UI made with React JS & Spotify OAuth 2.0. Work in Progress. Email me for live access.',
     src: 'spot1stPage.png',
     link: '',
     git: 'https://github.com/clucero36/spotify-clone.git',
