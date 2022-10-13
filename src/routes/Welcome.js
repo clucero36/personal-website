@@ -13,10 +13,10 @@ import { TiSocialLinkedinCircular } from "react-icons/ti";
 const Welcome = () => {
 
   return (
-    <Box padding='4rem' >
+    <Box padding='4rem'>
       <VStack spacing='5rem'>
         <Heading>Hey, I'm Luis</Heading>
-        <Box w='25rem'>
+        <Box w={['15rem', '25rem']}>
           <VStack spacing={5}>
             <Text>
               I am a freelance web developer and I've recently graduated with a Bachelors Degree in Computer Science.
