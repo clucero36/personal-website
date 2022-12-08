@@ -7,6 +7,7 @@ import Heading from './components/Heading';
 import Art from './routes/Art';
 import Projects from './routes/Projects';
 
+import '@fontsource/roboto'
 import { ColorModeScript, ChakraProvider } from '@chakra-ui/react';
 import { overrides } from './themes/themeIndex';
 
