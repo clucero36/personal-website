@@ -10,13 +10,13 @@ import {
 const Art = () => {
 
   return (
-    <Box pb='1rem' algin='center'>
+    <Box pb='1rem'>
       <Box align='center'>
         <Text fontSize='xl' fontWeight='bold'>P5.js Renders</Text>
       </Box>
       <Flex 
         wrap='wrap'
-        w={['95%','85%']}
+        w={['95%', '75%']}
         m='0rem auto' 
         justify='center'
         gap={6}

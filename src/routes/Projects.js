@@ -34,7 +34,7 @@ const Projects = () => {
       <Flex 
         wrap='wrap'
         justify='center'
-        w='50%'
+        w='70%'
         m='0 auto' 
         gap={5}
       >
