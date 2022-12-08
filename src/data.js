@@ -28,6 +28,10 @@ const projects = [
     link: 'https://threepeat.netlify.app/',
     git: 'https://github.com/clucero36/TicTacToe.git'
   },
+  {
+    name: 'Coming Soon: Appointments Application',
+    description: 'Appointment scheduler being developed with Next.js & Firebase.',
+  }
 ]
 
 export function getProjects() {

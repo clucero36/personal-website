@@ -4,6 +4,8 @@ import ProjectCard from '../components/ProjectCard';
 
 import {
   Flex,
+  Box,
+  Text,
 } from '@chakra-ui/react';
 
 
@@ -25,15 +27,21 @@ const Projects = () => {
   })
 
   return (
-    <Flex 
-      wrap='wrap'
-      justify='space-around'
-      w='50%'
-      m='0 auto' 
-      gap={5}
-    >
-      {renderedProjects}
-    </Flex>
+    <Box pb='1rem'>
+      <Box align='center'>
+        <Text fontSize='xl' fontWeight='bold'>Recent Projects</Text>
+      </Box>
+      <Flex 
+        wrap='wrap'
+        justify='center'
+        w='50%'
+        m='0 auto' 
+        gap={5}
+      >
+        {renderedProjects}
+      </Flex>
+    </Box>
+
   )
 }
 

@@ -7,5 +7,5 @@ export const overrides = extendTheme({
 
     components: {
       Link,
-    }
+    },
 })

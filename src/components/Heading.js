@@ -16,15 +16,18 @@ import {
 const Heading = props => {
 
     return (
-        <Box p='3rem 1rem' w={['90%', '90%', '65%', '65%', '65%']} m='0 auto' {...props}>
+        <Box p='3rem 0 3rem 0' w={['96%', '90%', '65%']} m='0 auto' {...props}>
             <HStack>
                 <Icon w={6} h={6} as={Gi3DStairs} _hover={{ color: 'green.700' }}/>
                 <Link variant='primary' to='/' as={routerLink}>
                     <Text>llucero</Text>
                 </Link>
                 <Spacer />
-                <Link variant='primary' to='/projects' as={routerLink}>Projects</Link>
-                <ColorModeSwitcher ml='2rem'/>
+                <HStack gap={[1, 1, 6]}>
+                    <Link variant='primary' to='/projects' as={routerLink}>Projects</Link>
+                    <Link variant='primary' to='/genart' as={routerLink}>Generative Art</Link>
+                    <ColorModeSwitcher/>
+                </HStack>
             </HStack>
         </Box>
     )

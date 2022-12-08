@@ -4,9 +4,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import App from './App';
 import Heading from './components/Heading';
-import Articles from './routes/Articles';
+import Art from './routes/Art';
 import Projects from './routes/Projects';
-
 
 import { ColorModeScript, ChakraProvider } from '@chakra-ui/react';
 import { overrides } from './themes/themeIndex';
@@ -19,8 +18,8 @@ ReactDOM.render(
       <Heading />
         <Routes>
           <Route path='/' element={<App />} />
-          <Route path='articles' element={<Articles />} />
           <Route path='projects' element={<Projects />} />
+          <Route path='genart' element={<Art />} />
         </Routes>
       </BrowserRouter>
     </ChakraProvider>
