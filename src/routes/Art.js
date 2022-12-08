@@ -10,22 +10,22 @@ import {
 const Art = () => {
 
   return (
-    <Box pb='1rem' >
+    <Box pb='1rem' algin='center'>
       <Box align='center'>
         <Text fontSize='xl' fontWeight='bold'>P5.js Renders</Text>
       </Box>
       <Flex 
         wrap='wrap'
-        w='60%'
-        m='1rem auto' 
+        w={['95%','85%']}
+        m='0rem auto' 
         justify='center'
         gap={6}
       >
-        <Image boxSize='md' minW='445px' src='curvestudy.png' />
-        <Image boxSize='md' minW='445px' src='relentless.png' />
-        <Image boxSize='md' minW='445px' src='randsphere.png' />
-        <Image boxSize='md' minW='445px' src='becoming.png' />
-        <Image boxSize='md' minW='445px' src='consider.png' />
+        <Image boxSize={['sm', 'sm', 'md']} minW='' src='curvestudy.png' />
+        <Image boxSize={['sm', 'sm', 'md']} minW='' src='relentless.png' />
+        <Image boxSize={['sm', 'sm', 'md']} minW='' src='randsphere.png' />
+        <Image boxSize={['sm', 'sm', 'md']} minW='' src='becoming.png' />
+        <Image boxSize={['sm', 'sm', 'md']} minW='' src='consider.png' />
       </Flex>
     </Box>
   )
