@@ -21,10 +21,11 @@ const Art = () => {
         justify='center'
         gap={6}
       >
+        <Image boxSize='md' minW='445px' src='curvestudy.png' />
+        <Image boxSize='md' minW='445px' src='relentless.png' />
+        <Image boxSize='md' minW='445px' src='randsphere.png' />
         <Image boxSize='md' minW='445px' src='becoming.png' />
         <Image boxSize='md' minW='445px' src='consider.png' />
-        <Image boxSize='md' minW='445px' src='randsphere.png' />
-        <Image boxSize='md' minW='445px' src='rgbrays3.png' />
       </Flex>
     </Box>
   )
