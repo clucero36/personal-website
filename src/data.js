@@ -29,7 +29,7 @@ const projects = [
     git: 'https://github.com/clucero36/TicTacToe.git'
   },
   {
-    name: 'Coming Soon: Appointments Application',
+    name: 'Coming Soon: Appointments',
     description: 'Appointment scheduler being developed with Next.js & Firebase.',
   }
 ]
