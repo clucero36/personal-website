@@ -15,6 +15,13 @@ const projects = [
     git: 'https://github.com/clucero36/spotify-clone.git',
   },
   {
+    name: 'Salon WebApp',
+    description: 'Business Web App. Bookings Coming Soon. Next.js, Node/Express, ChakraUI.',
+    src: 'salon-webapp.PNG',
+    link: 'https://salon-webapp.vercel.app',
+    git: 'https://github.com/clucero36/salon-webapp.git'
+  },
+  {
     name: 'Blogger Landing Page',
     description: 'Business landing page. HTML, CSS, & JavsScript.',
     src: 'bloggrNew.png',
@@ -27,13 +34,6 @@ const projects = [
     src: 'tttNew.png',
     link: 'https://threepeat.netlify.app/',
     git: 'https://github.com/clucero36/TicTacToe.git'
-  },
-  {
-    name: 'Salon WebApp',
-    description: 'Business Web App. Bookings Coming Soon. Next.js, Node/Express, ChakraUI.',
-    src: 'salon-webapp.PNG',
-    link: 'https://salon-webapp.vercel.app',
-    git: 'https://github.com/clucero36/salon-webapp.git'
   }
 ]
 
