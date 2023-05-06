@@ -18,9 +18,9 @@ function App() {
         <Box w={['15rem', '25rem']}>
           <VStack spacing={5}>
             <Text>
-              I am a web developer and an intern at Trinet Internet Solutions in Irvine, California. 
-              I have built applications with JavaScript tech stacks and I'm currently exploring development with content management systems.
-              I'm always looking for ways to improve as a developer and I hope to one day utalize my skill set to start a business of my own. 
+              I am a web developer, recent college graduate, and an intern at Trinet Internet Solutions in Irvine, California. 
+              I have built applications with JavaScript tech stacks and I'm currently exploring building web applications with content managements systems.
+              I'm always looking for ways to improve as a developer and I hope to one day leverage my skill set to start a business of my own. 
             </Text>
             <Text>
               In my free time I enjoy going to live music events, finding new places for food & drink, playing disc golf, and spending time with my family and friends.
