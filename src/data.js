@@ -11,7 +11,7 @@ const projects = [
     name: 'Spotify Clone',
     description: 'Spotify Web Playback App. React, Spotify OAuth 2.0, & Firebase. Email me for live access.',
     src: 'spot1stPage.png',
-    link: '',
+    link: 'https://spotifyditto.netlify.app',
     git: 'https://github.com/clucero36/spotify-clone.git',
   },
   {
