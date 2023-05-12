@@ -15,6 +15,13 @@ const projects = [
     git: 'https://github.com/clucero36/spotify-clone.git',
   },
   {
+    name: 'Know The Truth',
+    description: 'Mock Website built with Shopify CMS.',
+    src: 'ktt.png',
+    link: 'https://f3fd82.myshopify.com/',
+    git: 'https://github.com/clucero36/TicTacToe.git'
+  },
+  {
     name: 'Salon WebApp',
     description: 'Business Web App. Bookings Coming Soon. Next.js, Node/Express, ChakraUI.',
     src: 'salon-webapp.PNG',
@@ -28,13 +35,6 @@ const projects = [
     link: 'https://blogrbusiness.netlify.app/',
     git: 'https://github.com/clucero36/Blogr.git',
   },
-  {
-    name: 'Tic-Tac-Toe',
-    description: 'Classic Tic-Tac-Toe. JavaScript, React, & Chakra UI',
-    src: 'tttNew.png',
-    link: 'https://threepeat.netlify.app/',
-    git: 'https://github.com/clucero36/TicTacToe.git'
-  }
 ]
 
 export function getProjects() {
