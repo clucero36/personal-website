@@ -6,7 +6,7 @@ export const LinkStyles = {
 
     sizes: {},
 
-    variants: {
+    variants:  {
         primary: {
             _hover: {
                 color: whiten('teal.200', 30),

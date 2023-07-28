@@ -11,6 +11,7 @@ import { DiGithubBadge } from "react-icons/di";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
 
 function App() {
+  
   return (
     <Box padding={['2rem','4rem']}>
       <VStack spacing='5rem'>

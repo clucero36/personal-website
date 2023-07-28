@@ -7,6 +7,7 @@ import {
   Box,
   Text,
 } from '@chakra-ui/react';
+import { SlideFade } from '@chakra-ui/react'
 
 
 const Projects = () => {
@@ -28,9 +29,11 @@ const Projects = () => {
 
   return (
     <Box pb='1rem'>
-      <Box align='center'>
-        <Text fontSize='xl' fontWeight='bold'>Recent Projects</Text>
-      </Box>
+      <SlideFade in offsetX='120px'>
+        <Box align='center'>
+          <Text fontSize='3xl' fontWeight='bold' p='2rem'>Recent Projects</Text>
+        </Box>
+      </SlideFade>
       <Flex 
         wrap='wrap'
         justify='center'
