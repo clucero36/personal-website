@@ -16,7 +16,7 @@ import {
 const Heading = props => {
 
     return (
-        <Box p='3rem 0' w={['70%', '65%']} m='0 auto' {...props}>
+        <Box p={['1.5rem 0', '3rem 0']} w={['100%', '65%']} m='0 auto' {...props}>
             <HStack>
                 <Icon w={6} h={6} as={Gi3DStairs} _hover={{ color: 'green.700' }}/>
                 <Link variant='primary' to='/' as={routerLink}>

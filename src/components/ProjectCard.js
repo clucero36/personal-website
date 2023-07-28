@@ -15,11 +15,18 @@ const ProjectCard = (props) => {
 
   return (
     <SlideFade in offsetX='120px'>
-      <Image onClick={onToggle} src={props.src} cursor='pointer' w='350px' h='230px' mb='.5rem' borderRadius='sm'/>
+      <Box boxShadow='3xl'>
+        <Image 
+          onClick={onToggle} 
+          src={props.src} 
+          filter='drop-shadow(0 0 0.5rem gray)'
+          cursor='pointer' w='350px' h='230px' mb='.5rem' borderRadius='xl'
+        />
+      </Box>
       <Box w='350px'>
         <Fade in={isOpen}>
           <Flex flexDir='column' alignItems='center' gap='.75rem' justifyContent='space-between' >
-            <Box borderTop='1px solid' borderColor='purple.800' w='100%'>
+            <Box borderTop='1px solid' borderColor='purple.500' w='100%'>
               <Text fontSize='lg' fontWeight='bold' pb='.5rem'>{props.name}</Text>
               <Text>{props.description}</Text>
             </Box>
