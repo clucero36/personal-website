@@ -31,7 +31,7 @@ const ProjectCard = (props) => {
               <Text>{props.description}</Text>
             </Box>
             <HStack spacing={25}>
-              <Link variant='primary' href={props.link}>
+              <Link variant='primary' href={props.link} isExternal>
                 <Text>Live</Text>
               </Link>
               <Link variant='primary' href={props.git}>
