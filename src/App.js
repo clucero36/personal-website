@@ -28,13 +28,18 @@ function App() {
             </Text>
           </VStack>
         </Box>
-        <Box m='0 auto'>
-          <Link href='https://github.com/clucero36' variant='primary'>
-            <Icon h={8} w={8} as={DiGithubBadge} />
+        <Box m='0 auto' display='flex' alignItems='center' width={['95%', '65%']} justifyContent='space-between'>
+          <Link href='https://nextjs-website-theta-two.vercel.app' variant='primary'>
+            Link to New Site
           </Link>
-          <Link href='https://linkedin.com/in/luisclucero' variant='primary'>
-            <Icon h={8} w={8} as={TiSocialLinkedinCircular} />
-          </Link>
+          <div>
+            <Link href='https://github.com/clucero36' variant='primary'>
+              <Icon h={8} w={8} as={DiGithubBadge} />
+            </Link>
+            <Link href='https://linkedin.com/in/luisclucero' variant='primary'>
+              <Icon h={8} w={8} as={TiSocialLinkedinCircular} />
+            </Link>
+          </div>
         </Box>
       </VStack>
     </Box>
